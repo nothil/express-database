@@ -15,17 +15,17 @@
     <body>
         <div class="container">
         <h1>Visitor information</h1>
-        <form  action="/action" method="post">
+        <form  action="/action" method="post" id="form">
             <div class="info">
             <input type="text" placeholder="visitor name" name="name"><br>
-            <input type="text" placeholder="name of assistant" assistant="assistant"><br>
-            <input type="age"  placeholder="visitors age" age="age"><br>
-            <input type="date" placeholder="date of visit" date="date"><br>
-            <input type="time" placeholder="time of visit" time="time"><br>
-            <input type="text" placeholder="comments" comment="comment"><br>
+            <input type="text" placeholder="name of assistant" name="assistant"><br>
+            <input type="age"  placeholder="visitors age" name="age"><br>
+            <input type="date" placeholder="date of visit" name="date"><br>
+            <input type="time" placeholder="time of visit" name="time"><br>
+            <input type="text" placeholder="comments" name="comment"><br>
                 </div>
             
-            <button type="button">submit</button><br>
+            <button type="submit" form="form">submit</button><br>
         </form>
     </div>
     </body>
